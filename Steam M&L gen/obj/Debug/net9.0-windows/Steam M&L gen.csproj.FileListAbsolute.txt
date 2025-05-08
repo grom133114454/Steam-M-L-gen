@@ -1,0 +1,14 @@
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\Steam M&L gen.exe
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\Steam M&L gen.deps.json
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\Steam M&L gen.runtimeconfig.json
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\Steam M&L gen.dll
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\Steam M&L gen.pdb
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\Steam M&L gen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\Steam M&L gen.AssemblyInfoInputs.cache
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\Steam M&L gen.AssemblyInfo.cs
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\Steam M&L gen.csproj.CoreCompileInputs.cache
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\Steam M&L gen.dll
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\refint\Steam M&L gen.dll
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\Steam M&L gen.pdb
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\Steam M&L gen.genruntimeconfig.cache
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\ref\Steam M&L gen.dll

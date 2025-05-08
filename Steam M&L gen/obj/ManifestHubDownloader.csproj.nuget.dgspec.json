@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BBCrack\\Desktop\\cursor test progmar\\ManifestHubDownloader\\ManifestHubDownloader.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BBCrack\\Desktop\\cursor test progmar\\ManifestHubDownloader\\ManifestHubDownloader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BBCrack\\Desktop\\cursor test progmar\\ManifestHubDownloader\\ManifestHubDownloader.csproj",
+        "projectName": "ManifestHubDownloader",
+        "projectPath": "C:\\Users\\BBCrack\\Desktop\\cursor test progmar\\ManifestHubDownloader\\ManifestHubDownloader.csproj",
+        "packagesPath": "C:\\Users\\BBCrack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BBCrack\\Desktop\\cursor test progmar\\ManifestHubDownloader\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BBCrack\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "System.IO.Compression.ZipFile": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
