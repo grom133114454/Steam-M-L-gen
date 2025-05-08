@@ -1,0 +1,14 @@
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\ManifestHubDownloader.exe
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\ManifestHubDownloader.deps.json
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\ManifestHubDownloader.runtimeconfig.json
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\ManifestHubDownloader.dll
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\bin\Debug\net9.0-windows\ManifestHubDownloader.pdb
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\ManifestHubDownloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\ManifestHubDownloader.AssemblyInfoInputs.cache
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\ManifestHubDownloader.AssemblyInfo.cs
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\ManifestHubDownloader.csproj.CoreCompileInputs.cache
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\ManifestHubDownloader.dll
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\refint\ManifestHubDownloader.dll
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\ManifestHubDownloader.pdb
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\ManifestHubDownloader.genruntimeconfig.cache
+C:\Users\BBCrack\Desktop\cursor test progmar\ManifestHubDownloader\obj\Debug\net9.0-windows\ref\ManifestHubDownloader.dll
