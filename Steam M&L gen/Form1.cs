@@ -6,6 +6,9 @@ using System.Text;
 using System.Windows.Forms;
 using Microsoft.Win32;
 using System.Diagnostics;
+using System.Net.Http;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace ManifestHubDownloader;
 
@@ -353,32 +356,32 @@ public partial class Form1 : Form
         txtGameId.Focus();
     }
 
-    private void btnDownloadSteamTools_Click(object sender, EventArgs e)
+    private void btnDownloadDLC_Click(object sender, EventArgs e)
     {
         try
         {
-            string steamToolsPath = Path.Combine(Application.StartupPath, "Steamtools.exe");
-            if (File.Exists(steamToolsPath))
+            string creamInstallerPath = Path.Combine(Application.StartupPath, "CreamInstaller.exe");
+            if (!File.Exists(creamInstallerPath))
             {
-                MessageBox.Show("SteamTools is already downloaded.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("CreamInstaller.exe not found in program folder.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // Create a temporary file for the download
-            string tempFile = Path.Combine(Path.GetTempPath(), "Steamtools.exe");
-            
-            using (WebClient client = new WebClient())
+            Process.Start(new ProcessStartInfo
             {
-                client.DownloadFile("https://github.com/SteamTools-Team/SteamTools/releases/latest/download/Steamtools.exe", tempFile);
-            }
-
-            // Move the downloaded file to the application directory
-            File.Move(tempFile, steamToolsPath, true);
-            MessageBox.Show("SteamTools has been successfully downloaded.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                FileName = creamInstallerPath,
+                UseShellExecute = true
+            });
         }
         catch (Exception ex)
         {
-            MessageBox.Show($"Error downloading SteamTools: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show($"Error launching CreamInstaller: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+    }
+
+    private string ExtractGameName(string luaContent)
+    {
+        var match = Regex.Match(luaContent, @"game_name\s*=\s*""([^""]+)""");
+        return match.Success ? match.Groups[1].Value : null;
     }
 }

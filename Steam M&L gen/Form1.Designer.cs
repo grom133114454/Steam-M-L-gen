@@ -9,7 +9,7 @@ partial class Form1
     private System.Windows.Forms.TextBox txtGameId;
     private System.Windows.Forms.Button btnFind;
     private System.Windows.Forms.PictureBox picGame;
-    private System.Windows.Forms.Button btnDownloadSteamTools;
+    private System.Windows.Forms.Button btnDownloadDLC;
 
     /// <summary>
     ///  Clean up any resources being used.
@@ -36,7 +36,7 @@ partial class Form1
         this.txtGameId = new System.Windows.Forms.TextBox();
         this.btnFind = new System.Windows.Forms.Button();
         this.picGame = new System.Windows.Forms.PictureBox();
-        this.btnDownloadSteamTools = new System.Windows.Forms.Button();
+        this.btnDownloadDLC = new System.Windows.Forms.Button();
         ((System.ComponentModel.ISupportInitialize)(this.picGame)).BeginInit();
         this.SuspendLayout();
         // 
@@ -77,19 +77,19 @@ partial class Form1
         this.picGame.TabIndex = 2;
         this.picGame.TabStop = false;
         // 
-        // btnDownloadSteamTools
+        // btnDownloadDLC
         // 
-        this.btnDownloadSteamTools.BackColor = System.Drawing.Color.FromArgb(45, 45, 45);
-        this.btnDownloadSteamTools.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-        this.btnDownloadSteamTools.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-        this.btnDownloadSteamTools.ForeColor = System.Drawing.Color.White;
-        this.btnDownloadSteamTools.Location = new System.Drawing.Point(12, 194);
-        this.btnDownloadSteamTools.Name = "btnDownloadSteamTools";
-        this.btnDownloadSteamTools.Size = new System.Drawing.Size(306, 29);
-        this.btnDownloadSteamTools.TabIndex = 3;
-        this.btnDownloadSteamTools.Text = "Download SteamTools";
-        this.btnDownloadSteamTools.UseVisualStyleBackColor = false;
-        this.btnDownloadSteamTools.Click += new System.EventHandler(this.btnDownloadSteamTools_Click);
+        this.btnDownloadDLC.BackColor = System.Drawing.Color.FromArgb(45, 45, 45);
+        this.btnDownloadDLC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+        this.btnDownloadDLC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+        this.btnDownloadDLC.ForeColor = System.Drawing.Color.White;
+        this.btnDownloadDLC.Location = new System.Drawing.Point(12, 194);
+        this.btnDownloadDLC.Name = "btnDownloadDLC";
+        this.btnDownloadDLC.Size = new System.Drawing.Size(306, 29);
+        this.btnDownloadDLC.TabIndex = 3;
+        this.btnDownloadDLC.Text = "Download DLC";
+        this.btnDownloadDLC.UseVisualStyleBackColor = false;
+        this.btnDownloadDLC.Click += new System.EventHandler(this.btnDownloadDLC_Click);
         // 
         // Form1
         // 
@@ -97,7 +97,7 @@ partial class Form1
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         this.BackColor = System.Drawing.Color.FromArgb(15, 15, 15);
         this.ClientSize = new System.Drawing.Size(330, 235);
-        this.Controls.Add(this.btnDownloadSteamTools);
+        this.Controls.Add(this.btnDownloadDLC);
         this.Controls.Add(this.picGame);
         this.Controls.Add(this.btnFind);
         this.Controls.Add(this.txtGameId);
